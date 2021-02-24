@@ -52,20 +52,6 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 (setq projectile-project-search-path '("/Users/tomasramos/Repos/"))
-(font-lock-add-keywords 'lisp-mode
-                        '(("setq"   . 'font-lock-keyword-face)
-                          ("setf"   . 'font-lock-keyword-face)
-                          ("set"    . 'font-lock-keyword-face)
-                          ("format" . 'font-lock-builtin-face)
-                          ("nil"    . 'font-lock-type-face)
-                          ("car"    . 'font-lock-keyword-face)
-                          ("cdr"    . 'font-lock-keyword-face)
-                          ("terpri" . 'font-lock-keyword-face)
-                          ("cons"   . 'font-lock-keyword-face)
-                          ("funcall". 'font-lock-builtin-face)))
-
-(after! lisp-mode (setq inferior-lisp-program "/usr/local/bin/clisp"))
-
 (setq c-basic-offset 8)
 (setq scala-indent-level 4)
 (setq python-indent 2)
