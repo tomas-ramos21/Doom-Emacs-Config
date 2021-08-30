@@ -50,4 +50,5 @@
 ;(unpin! t)
 
 (package! javap-mode)
-(package! fries :recipe (:local-repo "/Users/tomasramos/Repos/Fries":build (:not compile)))
+(package! geiser)
+(package! fries :recipe (:local-repo "~/Repos/Fries/" :build (:not compile)))
